@@ -13,7 +13,7 @@ module.exports = {
     // IMPORT
     'plugin:import/typescript',
     // JEST
-    'plugin:jest/recommended',
+    // 'plugin:jest/recommended',
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
