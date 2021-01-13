@@ -9,7 +9,7 @@ module.exports = {
     // PRETTIER
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    'plugin:prettier/unicorn',
+    'prettier/unicorn',
     // IMPORT
     'plugin:import/typescript',
     // JEST

@@ -5,7 +5,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:import/typescript',
-    'plugin:prettier/react',
+    'prettier/react',
   ],
   parser: 'babel-eslint',
   plugins: ['react-hooks'],
