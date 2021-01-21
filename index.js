@@ -1,5 +1,4 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
   extends: [
     // BASE
     'eslint:recommended',
@@ -7,14 +6,15 @@ module.exports = {
     // TYPESCRIPT
     'plugin:@typescript-eslint/recommended',
     // PRETTIER
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
     'prettier/unicorn',
     // IMPORT
     'plugin:import/typescript',
     // JEST
     // 'plugin:jest/recommended',
   ],
+  parser: '@typescript-eslint/parser',
   plugins: ['import'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
