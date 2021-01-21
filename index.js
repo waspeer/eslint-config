@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     // BASE
     'eslint:recommended',
-    // 'plugin:unicorn/recommended',
+    'plugin:unicorn/recommended',
     // TYPESCRIPT
     'plugin:@typescript-eslint/recommended',
     // PRETTIER
