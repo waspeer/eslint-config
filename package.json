@@ -18,5 +18,8 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-unicorn": "^26.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
