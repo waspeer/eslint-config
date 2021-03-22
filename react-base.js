@@ -7,5 +7,7 @@ module.exports = {
   ],
   rules: {
     'react/jsx-boolean-value': 'error',
+    'unicorn/no-null': 'off',
+    'unicorn/prevent-abbreviations': ['error', { ignore: ['props', 'Props'] }],
   },
 };
