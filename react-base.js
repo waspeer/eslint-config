@@ -10,4 +10,7 @@ module.exports = {
     'unicorn/no-null': 'off',
     'unicorn/prevent-abbreviations': ['error', { ignore: ['props', 'Props'] }],
   },
+  settings: {
+    version: 'detect',
+  },
 };
