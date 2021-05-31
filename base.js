@@ -28,5 +28,14 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'prettier/prettier': [
+      'error',
+      {
+        "trailingComma": "all",
+        "singleQuote": true,
+        "arrowParens": "always",
+        "printWidth": 100
+      }
+    ]
   },
 };
