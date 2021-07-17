@@ -31,10 +31,11 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        "trailingComma": "all",
-        "singleQuote": true,
-        "arrowParens": "always",
-        "printWidth": 100
+        'trailingComma': 'all',
+        'singleQuote': true,
+        'arrowParens': 'always',
+        'printWidth': 100,
+        'endOfLine': 'auto'
       }
     ]
   },
