@@ -3,7 +3,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    'prettier/react',
+    'prettier',
   ],
   rules: {
     'react/jsx-boolean-value': 'error',

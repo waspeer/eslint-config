@@ -5,7 +5,6 @@ module.exports = {
     'plugin:unicorn/recommended',
     // PRETTIER
     'plugin:prettier/recommended',
-    'prettier/unicorn',
   ],
   plugins: ['import'],
   rules: {

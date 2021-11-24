@@ -3,7 +3,7 @@ module.exports = {
     './base.js',
 
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
+    'prettier',
     'plugin:import/typescript',
   ],
   parser: '@typescript-eslint/parser',
