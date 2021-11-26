@@ -36,6 +36,7 @@ module.exports = {
         'printWidth': 100,
         'endOfLine': 'auto'
       }
-    ]
+    ],
+    'unicorn/no-array-for-each': 'off'
   },
 };
