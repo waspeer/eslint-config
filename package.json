@@ -5,8 +5,8 @@
   "author": "Wannes Salomé",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js",
-    "./*": "./dist/*.js"
+    ".": "./dist/index.cjs",
+    "./*": "./dist/*.cjs"
   },
   "scripts": {
     "build": "rollup --config",
