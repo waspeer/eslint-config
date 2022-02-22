@@ -1,4 +1,7 @@
-module.exports = {
+// @ts-check
+
+/** @type {import('eslint').Linter.Config} */
+const baseConfig = {
   extends: [
     // BASE
     'eslint:recommended',
@@ -19,24 +22,22 @@ module.exports = {
       {
         alphabetize: { order: 'asc', caseInsensitive: true },
         pathGroups: [{ pattern: '{#,~}**', group: 'internal' }],
-        groups: [
-          ['builtin', 'external'],
-          'internal',
-          ['parent', 'sibling', 'index'],
-        ],
+        groups: [['builtin', 'external'], 'type', 'internal', ['parent', 'sibling', 'index']],
         'newlines-between': 'always',
       },
     ],
     'prettier/prettier': [
       'error',
       {
-        'trailingComma': 'all',
-        'singleQuote': true,
-        'arrowParens': 'always',
-        'printWidth': 100,
-        'endOfLine': 'auto'
-      }
+        trailingComma: 'all',
+        singleQuote: true,
+        arrowParens: 'always',
+        printWidth: 100,
+        endOfLine: 'auto',
+      },
     ],
-    'unicorn/no-array-for-each': 'off'
+    'unicorn/no-array-for-each': 'off',
   },
 };
+
+export default baseConfig;

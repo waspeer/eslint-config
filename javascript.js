@@ -1,4 +1,7 @@
-module.exports = {
+// @ts-check
+
+/** @type {import('eslint').Linter.Config} */
+const javascriptConfig = {
   extends: [
     './base.js',
     // IMPORT
@@ -7,3 +10,5 @@ module.exports = {
   ],
   rules: {},
 };
+
+export default javascriptConfig;

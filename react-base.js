@@ -1,4 +1,7 @@
-module.exports = {
+// @ts-check
+
+/** @type {import('eslint').Linter.Config} */
+const reactBaseConfig = {
   extends: [
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
@@ -15,3 +18,5 @@ module.exports = {
     version: 'detect',
   },
 };
+
+export default reactBaseConfig;

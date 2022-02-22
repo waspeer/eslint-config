@@ -1,3 +1,3 @@
-const typescriptConfig = require('./typescript');
+import typescriptConfig from './typescript';
 
-module.exports = typescriptConfig;
+export default typescriptConfig;

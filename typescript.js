@@ -1,4 +1,7 @@
-module.exports = {
+// @ts-check
+
+/** @type {import('eslint').Linter.Config} */
+const typescriptConfig = {
   extends: [
     './base.js',
 
@@ -16,3 +19,5 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
   },
 };
+
+export default typescriptConfig;
