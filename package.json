@@ -4,7 +4,14 @@
   "license": "MIT",
   "author": "Wannes Salomé",
   "type": "module",
-  "exports": "./index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "scripts": {
+    "build": "rollup --config",
+    "prepare": "npm run build"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
@@ -19,7 +26,8 @@
   },
   "devDependencies": {
     "@types/eslint": "^8.4.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "rollup": "^2.68.0"
   },
   "peerDependencies": {
     "eslint": "^7.17.0"
