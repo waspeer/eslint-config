@@ -8,6 +8,9 @@
     ".": "./dist/index.cjs",
     "./*": "./dist/*.cjs"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup --config",
     "prepare": "npm run build"
