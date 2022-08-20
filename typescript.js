@@ -6,8 +6,8 @@ const typescriptConfig = {
     './base.js',
 
     'plugin:@typescript-eslint/recommended',
-    'prettier',
     'plugin:import/typescript',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   rules: {

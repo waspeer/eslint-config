@@ -2,18 +2,10 @@
 
 /** @type {import('eslint').Linter.Config} */
 const baseConfig = {
-  extends: [
-    // BASE
-    'eslint:recommended',
-    'plugin:unicorn/recommended',
-    // PRETTIER
-    'plugin:prettier/recommended',
-  ],
+  extends: ['eslint:recommended', 'prettier'],
   plugins: ['import'],
   rules: {
-    'import/exports-last': 'error',
     'import/first': 'error',
-    'import/group-exports': 'error',
     'import/newline-after-import': 'error',
     'import/no-anonymous-default-export': 'error',
     'import/no-useless-path-segments': 'error',
@@ -26,17 +18,6 @@ const baseConfig = {
         'newlines-between': 'always',
       },
     ],
-    'prettier/prettier': [
-      'error',
-      {
-        trailingComma: 'all',
-        singleQuote: true,
-        arrowParens: 'always',
-        printWidth: 100,
-        endOfLine: 'auto',
-      },
-    ],
-    'unicorn/no-array-for-each': 'off',
   },
 };
 

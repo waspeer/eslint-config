@@ -11,8 +11,6 @@ const reactBaseConfig = {
   ],
   rules: {
     'react/jsx-boolean-value': 'error',
-    'unicorn/no-null': 'off',
-    'unicorn/prevent-abbreviations': ['error', { ignore: ['props', 'Props'] }],
   },
   settings: {
     version: 'detect',
