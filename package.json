@@ -1,6 +1,6 @@
 {
   "name": "@waspeer/eslint-config",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "license": "MIT",
   "author": "Wannes Salomé",
   "type": "module",
