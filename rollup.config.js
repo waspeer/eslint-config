@@ -5,6 +5,7 @@ import replace from 'rollup-plugin-modify';
 /** @type {import('rollup').RollupOptions} */
 const rollupConfig = {
   input: [
+    'astro.js',
     'base.js',
     'index.js',
     'javascript.js',
