@@ -9,6 +9,7 @@ const rollupConfig = {
     'base.js',
     'index.js',
     'javascript.js',
+    'solid.js',
     'react-base.js',
     'react-javascript.js',
     'react.js',
